@@ -10,8 +10,8 @@ from binance.client import Client
 # In[2]:
 
 
-binance_api="SXWANOF2tZJNn7OwCbevt3Ew3TeBjiUFs3Q66WLB8uXokVHqPy5jkpug1vjMdx66"
-binance_secret="q7ENMQWl4fFvjWc4dRU5lvWiHZMPc3nsryASrDeH35AIFHFiTSnE3yrXhtMbgSlo"
+binance_api="**********************"
+binance_secret="*********************************"
 new_client=Client(api_key=binance_api,api_secret=binance_secret,tld="com", testnet=True)
 new_client.get_account()
 from binance import ThreadedWebsocketManager
@@ -28,8 +28,8 @@ import yfinance as yf
 # In[4]:
 
 
-binance_api="SXWANOF2tZJNn7OwCbevt3Ew3TeBjiUFs3Q66WLB8uXokVHqPy5jkpug1vjMdx66"
-binance_secret="q7ENMQWl4fFvjWc4dRU5lvWiHZMPc3nsryASrDeH35AIFHFiTSnE3yrXhtMbgSlo"
+binance_api="***************************************"
+binance_secret="*******************************************"
 new_client=Client(api_key=binance_api,api_secret=binance_secret,tld="com", testnet=True)
 
 
